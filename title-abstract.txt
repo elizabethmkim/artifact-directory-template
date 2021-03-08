@@ -1,5 +1,6 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Determining Correct Face Mask Usage with Inception Resnet and MaskedFace-Net Dataset
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+Many models and algorithms in artificial intelligence are considered “black box models”, or models that do not provide transparency into how it reached a certain conclusion; ultimately, although they may be accurate, they are uninterpretable by humans and lack trust and transparency. We aim to provide this transparency through explainable artificial intelligence. First and foremost, we aim to present a model that can determine if individuals are properly wearing a mask, improperly wearing a mask, or are not wearing a mask at all in the light of the Covid-19 pandemic. Especially as this is a high stakes situation, with businesses and individuals at risk, transparency is key.  Secondly, we aim to provide this transparency through GradCAM, which will highlight how our model came to its decision. 
+The method uses an untrained Inception Resnet V1 in order to determine the mask usage in a given image. Gradient Descent is used for training and Cross Entropy as a loss function. Finally, GradCAM is applied to the images and outputs a coarse heatmap from the last layers of our convolutional neural network that shows exactly what our model is looking at. Currently, we are able to reach a model with 96% accuracy. 
